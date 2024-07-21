@@ -10,6 +10,7 @@ app.config.from_object(configuracion['development'])
 db.init_app(app)
 ma.init_app(app)
 
+#prueba de cambio 
 # Registrar las rutas desde el Blueprint
 app.register_blueprint(routes.routes)
 
